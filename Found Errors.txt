@@ -1,0 +1,9 @@
+$(document).ready(function(){      - missing this runs all the js on page load
+
+$('p, h3, li').hoverfunction(){ -> $(document).ready(function(){
+
+missing a }) in the javascript portion of the html page
+
+var result = $('input:checked').value()  -> var result = $('input:checked').val() 
+
+; after every function, should only be after the last one?
